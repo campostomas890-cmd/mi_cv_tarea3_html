@@ -13,12 +13,40 @@
         <input type="text" name="nombre">
         </p>
         <p>
-            <input type="text" name="apellido" placeholder="apellido" />
+            <label for="ape">Apellido</label>
+            <input type="text" name="apellido"  />
         </p>
         <p>
-            <label for="pass">Contraseña</label> 
-            <input type="password" name="pass">
+            <label for="pass">contraseña nueva </label> 
+            <input type="text" name="pass"></input>
         </p>
+        <label for="sexo">Sexo(Genero)</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">Hombre </input>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">Mujer </input>
+            </li>
+        </ul>
+        <p>
+        <label for="titulo">Titulo</label>
+        <select name="titulo">
+            <option value="primario">Primario</option>
+            <option value="secundario">Secundario</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">universitario</option>
+        </select>
+    </p>
+    <p>
+    <label for="comentarios">Comentarios</label>
+    <textarea name="comentarios"> </textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+    </p>
     </form>
+
 </body>
 </html>
