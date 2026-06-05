@@ -1,0 +1,71 @@
+body{
+    background-color: #0ddba8;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 3px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+    font-family: 'franklin gothic medium', Courier, monospace;
+}
+
+p{
+    word-spacing: 1px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'franklin gothic medium', Courier, monospace;
+}
+
+img{
+    align-items: center;
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-cv {
+    /* 1. Limitamos el ancho para que no llegue a los bordes */
+    width: 70%; 
+    max-width: 800px; /* Evita que en pantallas muy grandes sea demasiado ancho */
+
+    /* 2. Centramos el bloque entero en la pantalla */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    
+    border: 3px solid black;
+    align-items: center;
+}
+
+.contenedor-cv {
+        /* 1. Limitamos el ancho para que no llegue a los bordes */
+        width: 70%; 
+        max-width: 800px; /* Evita que en pantallas muy grandes sea demasiado ancho */
+    
+        /* 2. Centramos el bloque entero en la pantalla */
+        margin-left: auto;
+        margin-right: auto;;
+}
+ul{
+    color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4{
+    padding-top: 15px;
+}
