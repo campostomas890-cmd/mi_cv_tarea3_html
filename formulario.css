@@ -1,7 +1,105 @@
-body{
-    background-color: #0ddba8;
+/* Centrado general en pantalla */
+body {
+    background-color: #00c49a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-h2{
+
+/* Caja contenedora */
+.contenedor-formulario {
+    background-color: transparent; /* Si prefieres un fondo blanco sutil cambia a: rgba(255, 255, 255, 0.15) */
+    padding: 30px;
+    border-radius: 10px;
     text-align: center;
-    
+    max-width: 450px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2, h5, .enlace-volver {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Filas de campos (Nombre, Apellido, Pass, Titulo) */
+.grupo-campo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.grupo-campo label {
+    width: 40%;
+    font-weight: bold;
+}
+
+.grupo-campo input[type="text"],
+.grupo-campo input[type="password"],
+.grupo-campo select,
+.grupo-campo textarea {
+    width: 55%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Ajuste específico para el Textarea */
+.grupo-campo.campo-textarea {
+    align-items: flex-start;
+}
+
+.grupo-campo textarea {
+    height: 60px;
+    resize: none;
+}
+
+/* Alineación limpia para la sección de género (sin puntos de lista) */
+.grupo-genero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.titulo-genero {
+    width: 40%;
+    font-weight: bold;
+}
+
+.opciones-genero {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Botones de acción */
+.grupo-botones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #333;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
 }
