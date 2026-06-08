@@ -11,7 +11,7 @@ body {
 
 
 .contenedor-formulario {
-    background-color: transparent; /* Si prefieres un fondo blanco sutil cambia a: rgba(255, 255, 255, 0.15) */
+    background-color: transparent; 
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -25,7 +25,7 @@ h2, h5, .enlace-volver {
     display: block;
 }
 
-/* Filas de campos (Nombre, Apellido, Pass, Titulo) */
+
 .grupo-campo {
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,6 @@ h2, h5, .enlace-volver {
     box-sizing: border-box;
 }
 
-/* Ajuste específico para el Textarea */
 .grupo-campo.campo-textarea {
     align-items: flex-start;
 }
@@ -80,7 +79,7 @@ h2, h5, .enlace-volver {
     gap: 5px;
 }
 
-/* Botones de acción */
+
 .grupo-botones {
     display: flex;
     justify-content: center;
