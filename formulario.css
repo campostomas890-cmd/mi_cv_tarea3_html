@@ -1,4 +1,4 @@
-/* Centrado general en pantalla */
+
 body {
     background-color: #00c49a;
     display: flex;
@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Caja contenedora */
+
 .contenedor-formulario {
     background-color: transparent; /* Si prefieres un fondo blanco sutil cambia a: rgba(255, 255, 255, 0.15) */
     padding: 30px;
@@ -60,7 +60,6 @@ h2, h5, .enlace-volver {
     resize: none;
 }
 
-/* Alineación limpia para la sección de género (sin puntos de lista) */
 .grupo-genero {
     display: flex;
     justify-content: space-between;

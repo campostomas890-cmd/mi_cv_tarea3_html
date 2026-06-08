@@ -28,22 +28,21 @@ p{
     font-family: 'franklin gothic medium', Courier, monospace;
 }
 
-img{
+.foto {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 20px auto;
+}
+
+.foto_cv {
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
 }
 
 h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.contenedor-cv {
-    /* 1. Limitamos el ancho para que no llegue a los bordes */
-    width: 70%; 
-    max-width: 800px; /* Evita que en pantallas muy grandes sea demasiado ancho */
-
-    /* 2. Centramos el bloque entero en la pantalla */
-    margin-left: auto;
-    margin-right: auto;
 }
 
 img{
@@ -53,19 +52,25 @@ img{
 }
 
 .contenedor-cv {
-        /* 1. Limitamos el ancho para que no llegue a los bordes */
-        width: 70%; 
-        max-width: 800px; /* Evita que en pantallas muy grandes sea demasiado ancho */
-    
-        /* 2. Centramos el bloque entero en la pantalla */
-        margin-left: auto;
-        margin-right: auto;;
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
-ul{
+ul {
     color: chocolate;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 h4{
     padding-top: 15px;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
